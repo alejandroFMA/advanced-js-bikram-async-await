@@ -1,0 +1,72 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+   
+    
+}
+
+
+
+#pelea{
+    display: flex;
+    flex-direction: column;
+ background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/89937ed5-8b7a-4261-9f56-b05d454f526e/d5nv6os-4c3cc3ad-1448-4a73-b5d2-e8daaf687ddb.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg5OTM3ZWQ1LThiN2EtNDI2MS05ZjU2LWIwNWQ0NTRmNTI2ZVwvZDVudjZvcy00YzNjYzNhZC0xNDQ4LTRhNzMtYjVkMi1lOGRhYWY2ODdkZGIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ky5DTDM2i66JIq1Ieuo7Hia8JcgXI1W-DYzxOZ9x6G0);
+ background-size: contain;
+background-repeat: no-repeat;
+background-position: bottom center;
+align-items: center;
+margin:50px;
+}
+
+
+#perro, #pokemon{
+    display: flex;
+    width: 300px;
+    height: 300px; 
+}
+
+#perro{
+
+    padding-right: 500px;
+}
+
+#pokemon{
+
+    padding-left: 500px;
+
+    
+}
+
+
+#rickymorty{
+padding: 20px;
+display: flex;
+flex-direction:column;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(179, 210, 211);
+-webkit-box-shadow: 13px 22px 38px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 13px 22px 38px 5px rgba(0,0,0,0.75);
+box-shadow: 13px 22px 38px 5px rgba(0,0,0,0.75);
+}
+
+#rickymorty p{
+    text-align: left;
+}
+
+#rickymorty>img{
+
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
